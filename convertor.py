@@ -3,7 +3,7 @@ import tempfile
 from pydub import AudioSegment 
 
 #iterating through the directory 
-directory = '/Users/muddasirriaz/Shellhacks/beats'
+directory = 'ADD PATH'
 counter = 0
 #loop to convert mp3 to .wav
 for filename in os.listdir(directory):
@@ -13,6 +13,6 @@ for filename in os.listdir(directory):
         counter += 1
 
         #convert mp3 to wav
-        sound = AudioSegment.from_file('/Users/muddasirriaz/Shellhacks/beats_wav/'+filename)
+        sound = AudioSegment.from_file('ADD PATH'+filename)
         
     continue
